@@ -3,5 +3,4 @@
 - React
 - Babel
 - Webpack
-- TailwindCSS
 - React-router-dom

@@ -1,10 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "../styles/styles.css";
+import "../styles/globalStyles.css";
 
 function Navbar() {
 	return (
-		<ul className="bg-black text-red-500 text-center p-2 justify-center">
+		<ul style={{ backgroundColor: "orange" }}>
 			<NavLink
 				to="/"
 				className={(navData) => (navData.isActive ? "activeTab" : "")}
